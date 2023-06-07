@@ -31,6 +31,7 @@ const Register = () => {
 			setErr(true)
 		}
 	}
+
 	return (
 		<div className={styles.container}>
 			<form className={styles.form} onSubmit={handleSubmit}>
